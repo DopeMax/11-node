@@ -1,6 +1,6 @@
+
 const http=require('http');
 const fs=require('fs');
-
 var server= http.createServer(function(req,res){
     var file_name='./www'+req.url;
     
@@ -12,5 +12,7 @@ var server= http.createServer(function(req,res){
         }
         res.end();
     });
+    
+    
 });
 server.listen(8000);
