@@ -1,7 +1,3 @@
-# 1.视频地址
-## 石川33的从零开始nodeJS教程
-[https://www.bilibili.com/video/av22056141?from=search&seid=1851662938983178488](https://www.bilibili.com/video/av22056141?from=search&seid=1851662938983178488)
-# 笔记
 1. 性能优势
 同配置机器，比php高出86倍。
 2. 安装
