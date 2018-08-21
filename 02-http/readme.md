@@ -35,9 +35,21 @@ writeFile(文件名,内容,function(err,data){});
 
 ## 03.http模块之数据解析
 1. get
-
+- req.url--urlLib.parse(req.url,true);
 2. post
+- 事件驱动
+- POST数据很大，才用分段形式
+    - data 一段数据
+    - end 全部到达
+```
+var str='';
+var i=0;
+req.on('data',function(data){
+    console.log(第${i++}次收到数据');
+    str+=data;
+});
 
-
+req.on('end',function(){});
+```
 ## 04.建议httpServer搭建
 
