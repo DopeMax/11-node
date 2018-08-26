@@ -17,7 +17,10 @@
 定义：
 url		300字
 
-
+admin_table			管理员用户表
+ID
+username	varchar(32)
+password	varchar(32)
 
 banner_table			焦点图表
 ID
@@ -110,3 +113,10 @@ CREATE TABLE `tb_node_banner`  (
 ```
 
 2. tb_banner 焦点图表
+
+
+
+```
+cnpm install express express-static express-route cookie-parser cookie-session multer body-parser consolidate ejs mysql -D
+
+```
